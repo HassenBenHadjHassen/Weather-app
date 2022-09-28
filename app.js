@@ -37,7 +37,12 @@ app.post("/", function(req,res) {
     })
 });
 
+var port = process.env.PORT;
+if (port === "" || port === null) {
+    port = 5500;
+}
 
-app.listen(5500, function () {
-    console.log("Server Started on Port 5500");
-})
+
+app.listen(port, function () {
+    console.log("Server Started on Port", port);
+});
