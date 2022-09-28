@@ -1,0 +1,13 @@
+body {
+    background-color: #98999B;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+}
+
+.form > h1 {
+    
+    text-align: center;
+}
+
+.form > div {
+    text-align: center;
+}
